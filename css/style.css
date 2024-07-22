@@ -723,6 +723,18 @@ header {
         min-height: 380px;
     }
 
+    .search-box {
+        margin-left: 1rem;
+    }
+
+    .movies-content {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+
+    .movie-box {
+        height: 300px;
+    }
+
     .heading {
         padding: 2px 14px;
     }
@@ -777,6 +789,7 @@ header {
         order: 3;
         grid-column-start: 1;
         grid-column-end: 3;
+        margin-left: 0;
     }
 
     .home,
